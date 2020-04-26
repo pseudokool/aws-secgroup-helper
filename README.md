@@ -4,6 +4,13 @@
 CLI replacement to replace having to update ingress/egress rules in AWS security groups via the web console.
 
 ## Usage
+First configure the following in awssech.sh
+```
+SEC_GRP="my-security-group-name"
+DESCRIPTION="my-description-no-spaces"
+AWS_PROFILE="my-aws-profile-name-usually-default"
+```
+Make the script executable
 ```
 chmod +x awssech.sh
 ./awssech.sh 
