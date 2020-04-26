@@ -10,7 +10,7 @@ SEC_GRP="my-security-group-name"
 DESCRIPTION="my-description-no-spaces"
 AWS_PROFILE="my-aws-profile-name-usually-default"
 ```
-Make the script executable
+Make the script executable.
 ```
 chmod +x awssech.sh
 ./awssech.sh 
@@ -20,7 +20,7 @@ Setup an alias in your shell profile.
 ```
 alias awssech="/Users/johndoe//aws-secgroup-helper/awssech.sh"
 ```
-The **awssech** command is now available globally.
+This makes **awssech** globally available.
 
 ## Requirements
 The AWS CLI needs to be [installed](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) and [configured](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html). Make sure your intended zone is setup in the defaults.
