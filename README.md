@@ -13,6 +13,7 @@ Setup an alias in your shell profile.
 ```
 alias awssech="/Users/johndoe//aws-secgroup-helper/awssech.sh"
 ```
+The **awssech** command is now available globally.
 
 ## Requirements
 The AWS CLI needs to be [installed](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) and [configured](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html). Make sure your intended zone is setup in the defaults.
